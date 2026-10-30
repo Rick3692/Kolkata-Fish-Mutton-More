@@ -44,9 +44,7 @@ function ph(label, bg){
 
 const DEFAULT_PRODUCTS = [
   // FISH — priced per 1 Kg
-  { id:"fish-01", category:"fish", name:"Rui (Rohu)", name_bn:"রুই মাছ", unit:"kg", step:1, price:240, image:ph("Rui","%23C9D6DE"), inStock:true },
-  { id:"fish-02", category:"fish", name:"Katla", name_bn:"কাতলা মাছ", unit:"kg", step:1, price:280, image:ph("Ka","%23C9D6DE"), inStock:true },
-  { id:"fish-03", category:"fish", name:"Ilish (Hilsa)", name_bn:"ইলিশ মাছ", unit:"kg", step:1, price:1450, image:ph("Il","%23C9D6DE"), inStock:true },
+   { id:"fish-03", category:"fish", name:"Ilish (Hilsa)", name_bn:"ইলিশ মাছ", unit:"kg", step:1, price:1450, image:ph("Il","%23C9D6DE"), inStock:true },
   { id:"fish-04", category:"fish", name:"Chingri (Prawns)", name_bn:"চিংড়ি মাছ", unit:"kg", step:1, price:580, image:ph("Ch","%23C9D6DE"), inStock:true },
   { id:"fish-05", category:"fish", name:"Pabda", name_bn:"পাবদা মাছ", unit:"kg", step:1, price:450, image:ph("Pa","%23C9D6DE"), inStock:true },
   { id:"fish-06", category:"fish", name:"Bata", name_bn:"বাটা মাছ", unit:"kg", step:1, price:190, image:ph("Ba","%23C9D6DE"), inStock:false },
